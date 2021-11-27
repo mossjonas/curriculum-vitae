@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <button id="go2top" title="Go to top" hidden>❯</button>
+        <script>
+            go2top.onclick = function () {
+                window.scrollTo(pageXOffset, 0);
+            };
+
+            window.addEventListener('scroll', function () {
+                go2top.hidden = (pageYOffset < document.documentElement.clientHeight);
+            });
+        </script>
+        <div class="section bg1">
+            <div class="content">
+                <div id="title">
+                    <h2>Jonas Moss</h2>
+                </div>
+                <ul class="menu">
+                    <li>
+                        <a href="#about">Om mig</a>
+                    </li>
+                    <li>
+                        <a href="#studies">Studier</a>
+                    </li>
+                    <li>
+                        <a href="#cv">Curriculum vitae</a>
+                    </li>
+                </ul>
+                <div id="footer">
+                    <h3>++ Fotografi & design av Jonas Moss ++</h3>
+                </div>
+            </div>
+        </div>
+        <div class="section bg2">
+            <div class="content" id="about">
+                <div id="info">
+                    <img id="proimg" src="img/DSC062402.jpg">
+                    <p class="about">
+                        <strong>Född:</strong> 1986
+                        <br>
+                        <strong>Bor:</strong> Åre
+                        <br>
+                        <strong>Sysselsättning:</strong> Frilansar som snickare och pluggar till .NET utvecklare
+                        <br>
+                        <strong>Intressen:</strong> Fotografi, design, brädsport, musik, träning, resa
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section bg3">
+            <div class="content" id="studies">
+                <div id="info">
+                    <p>
+                        .NET utvecklare via Teknikhögskolan YH
+                    </p>
+                    <ul class="studytimeline">
+                        <li id="done">
+                            Programmeringsteknik C# | 65p
+                        </li>
+                        <li id="done">
+                            Databaser med SQL | 35p
+                        </li>
+                        <li id="done">
+                            Webutveckling frontend | 35p
+                        </li>
+                        <li>
+                            Dataåtkomster i .NET | 35p
+                        </li>
+                        <li>
+                            Webutveckling backend | 35p
+                        </li>
+                        <li>
+                            Utveckling av molnbaserade applikationer | 30p
+                        </li>
+                        <li>
+                            Lärande i arbete 1 | 35p
+                        </li>
+                        <li>
+                            Utveckling i ramverket .NET | 35p
+                        </li>
+                        <li>
+                            Lärande i arbete 2 | 70p
+                        </li>
+                        <li>
+                            Examensarbete | 25p
+                        </li>
+                        <li>
+                            Totalt | 400p
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section bg4">
+            <div class="content" id="cv">
+                <div id="cvinfo">
+                    <p>
+                        På ett arbete vill jag vara en bidragande del av gruppen och gör det genom att vara punktlig, ta
+                        ansvar och initiativ för att lösa problem, våga fråga om hjälp när det behövs, och framför allt
+                        vara en god kollega som bidrar med god attityd. Eftersom jag strävar efter mångsidighet och är
+                        intresserad av att lära mig nya saker ser jag inga problem med att ta större ansvar och kunna
+                        hjälpa till på fler områden med tiden.
+                        <br><br>
+                        Sedan tidig ålder har jag varit mycket aktiv inom både lag- och individuella sporter som bland
+                        annat ishockey, fotboll, innebandy, amerikansk fotboll, fallskärmshoppning, surf, skateboard och
+                        snowboard. Detta har bidragit till en aktiv livsstil, samt förståelse för både individuella
+                        prestationer och teamwork. Jag håller även på med saker som friluftsliv & fiske, träning,
+                        fotografering och musik.
+                        <br><br>
+                        Med min nuvarande utbildning ser jag i framtiden chansen till ett mångsidigt yrke med potential
+                        för utveckling inom många olika områden. Eftersom jag har ett förflutet inom fotografi och
+                        design så känner jag än så länge att jag lockas mest av frontend-utveckling, samtidigt som jag
+                        vill fortsätta vara öppen för övriga kommande utmaningar.
+                        <hr>
+                    </p>
+                    <ul class="timeline">
+                        <li>
+                            <h1>Frilans</h1>
+                            <h2>2017 - tillsvidare</h2>
+                            <p>
+                                Snickare += nybyggnationer, renoveringar och montagejobb av finsnickerier via enskild
+                                firma
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Fotograf och underhåll</h1>
+                            <h2>2019 - 2020</h2>
+                            <p>
+                                "In house" fotograf, underhåll och lagning av surfbrädor för <strong>Indian Ocean Surf
+                                    Club</strong>, Sri Lanka
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Lager, truckförare</h1>
+                            <h2>2012 - 2016</h2>
+                            <p>
+                                Norge += Jobbat på flera olika lager som truckförare för bl.a:
+                                <strong>
+                                    <br>
+                                    AGA-gas
+                                    <br>
+                                    Coop
+                                    <br>
+                                    Vinmonopolet
+                                    <br>
+                                    ASCO
+                                    <br>
+                                    Tine meierier
+                                </strong>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Barnskötare</h1>
+                            <h2>2012</h2>
+                            <p>
+                                Barnskötare på <strong>Forsafjäll förskola</strong>, Duved
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Intervjuare</h1>
+                            <h2>2010 - 2012</h2>
+                            <p>
+                                Genomfört marknadsundersökningar via telefon på <strong>PFM Research</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Landscaper</h1>
+                            <h2>2010</h2>
+                            <p>
+                                Planterat inhemsk nya zeeländsk skog och plantage, ansvar för bevattningssystem hos
+                                <strong>Native New Zealand</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Fabriksarbetare</h1>
+                            <h2>2009 - 2011</h2>
+                            <p>
+                                Byggt skidor och snowboards i <strong>Åre skidfabrik</strong> i 3 omgångar
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Stuare</h1>
+                            <h2>2007 - 2008</h2>
+                            <p>
+                                Lastat bagage, ansvar för uppstarts- och pushback procedurer på Oslo flygplats för:
+                                <strong>
+                                    <br>
+                                    SGS (SAS Ground Services)
+                                    <br>
+                                    Wideroe
+                                </strong>
+                            </p>
+                        </li>
+                        <li>
+                            <h1>Andra erfarenheter</h1>
+                            <h2>Skola - Nutid</h2>
+                            <p>
+                                Läste samhällsvetenskap med ekonomisk inriktning på gymnasiet och har under skolgången
+                                och åren efteråt sysslat med saker som:
+                                <strong>
+                                    <br>
+                                    Säljare, Svenska Dagbladet
+                                    <br>
+                                    Annonsproducent, Svenska Dagbladet
+                                    <br>
+                                    Fotografisk bild A + B
+                                    <br>
+                                    Självlärd och 10+ års erfarenhet av programvara inom adobes serie för design och
+                                    fotoredigering t.ex:
+                                    <br>
+                                    Photoshop, Illustrator, InDesign & Lightroom
+                                </strong>
+                            </p>
+                        </li>
+                        <hr>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
