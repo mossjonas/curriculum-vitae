@@ -184,6 +184,10 @@ p strong {
     font-size: 22px;
 }
 
+.contactinfo {
+    list-style-type: none;
+}
+
 .bg1 {
     background-image: url("img/IMG_4105.jpg");
     height: 100%;
